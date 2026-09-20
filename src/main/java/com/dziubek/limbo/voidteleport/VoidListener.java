@@ -22,7 +22,10 @@ public class VoidListener implements Listener {
             return;
         }
         Player player = event.getPlayer();
+        if (plugin.isReturning(player)) {
+            return;
+        }
         Location spawn = Limbo.getInstance().getServerProperties().getWorldSpawn();
-        player.teleport(spawn);
+        plugin.playReturnAnimation(player, spawn);
     }
 }
