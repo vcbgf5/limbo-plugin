@@ -1,0 +1,5 @@
+name: LimboVoidTeleport
+main: com.dziubek.limbo.voidteleport.VoidTeleportPlugin
+version: 1.0.0
+author: Dziubek
+description: Teleportuje gracza na spawn swiata, gdy spadnie do voida
